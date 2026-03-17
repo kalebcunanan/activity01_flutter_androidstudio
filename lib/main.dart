@@ -13,8 +13,22 @@ class MyApp extends StatelessWidget {
       MaterialApp(
           title: "Hello, World!",
           home: Scaffold(
-            backgroundColor: Colors.red,body: Center(child: Text("Hello World")),
-          ));
+            backgroundColor: Colors.pink,
+            body: SafeArea(
+              child: Container(color: Colors.white, 
+                width: 150,
+                height: 150,
+                //margin: EdgeInsets.symmetric(horizontal: 15 ,vertical: 100),
+                //margin: EdgeInsets.symmetric(horizontal: 15),
+                //margin: EdgeInsets.fromLTRB(10, 30, 69, 12),
+                //margin: EdgeInsets.only(top: 30),
+                  margin: EdgeInsets.all(50),
+
+
+              child: Center(child: Text("Hello World!")),),
+          )
+          )
+          );
   }
 }
 
