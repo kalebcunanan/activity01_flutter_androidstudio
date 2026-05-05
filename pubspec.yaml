@@ -57,6 +57,27 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  assets:
+     - assets/images/CatProfile.png
+     - assets/images/dice1.png
+     - assets/images/dice2.png
+     - assets/images/dice3.png
+     - assets/images/dice4.png
+     - assets/images/dice5.png
+     - assets/images/dice6.png
+
+  #   - images/a_dot_ham.jpeg
+
+  fonts:
+     - family: ShantellSans
+       fonts:
+         - asset: assets/fonts/ShantellSans-Regular.ttf
+
+     - family: SourceSans3
+       fonts:
+         - asset: assets/fonts/SourceSans3-Regular.ttf
+
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
